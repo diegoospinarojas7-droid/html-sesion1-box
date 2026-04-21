@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello World</h1>
+    <style>
+        .elemento{
+            display: inline;
+            background-color: rgb(39, 109, 170);
+            color: aqua;
+            width: 200px;
+            height: 200px;
+        }
+        .elemento_block{
+            display: block;
+            background-color: rgb(20, 10, 10);
+            color: brown;
+            width: 200px;
+            height: 200px;
+        }
+        .resaltado{
+            color: rgb(48, 44, 43);
+            letter-spacing: 2px;
+            font-family: arial;
+            font-size: large;
+            font-weight: bold;
+        }
+    </style>
+<body> 
+    <h1>Inline</h1>
+    <div class="elemento resaltado">
+        Productos
+    </div>
+    <div class="elemento">
+        Nosotros
+    </div>
+    <div class="elemento resaltado">
+        Servicios
+    </div>
+    <div class="elemento">
+        Contacto
+    </div>
+    <hr>
+    <h1> block</h1>
+    <div class="elemento_block">
+        Productos
+    </div>
+    <div class="elemento_block">
+        Nosotros
+    </div>
+    <div class="elemento_block">
+        Servicios
+    </div>
+    <div class="elemento_block">
+        Contacto
+    </div>
 </body>
 </html>
